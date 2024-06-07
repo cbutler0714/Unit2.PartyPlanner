@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+#form {
+    background-color: cornflowerblue;
+    padding: 1rem;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.formSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.formSection:last-child {
+    flex-direction: column;
+}
+
+label {
+    margin-right: 1rem;
+}
+
+textarea {
+    box-sizing: border-box;
+    padding: 1rem;
+    resize: vertical;
+}
+
+#add {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
